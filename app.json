@@ -1,0 +1,26 @@
+{
+  "env": {
+    "DEBUG": {
+      "description": "The debug scope. Set the value to \"rrtc\" for basic output and/or \"rrtc:verbose\" for more verbose output (includes the full message for every event). Supports comma-delimited list of debug scopes (e.g. \"rrtc,rrtc:verbose\") and wildcards (e.g. \"rrtc*\").",
+      "required": false,
+      "value": "*"
+    },
+    "NAMESPACE": {
+      "description": "The namespace to connect to. Must be one of \"bots\", \"perspectives\" or \"rooms\".",
+      "required": true
+    },
+    "QUERY_ID": {
+      "description": "The query you want to use to filter the events. If you want to receive *all* events (i.e. no filter) then set the value to \"/\" (default).",
+      "required": true,
+      "value": "/"
+    },
+    "REAL_TIME_URL": {
+      "description": "The URL of your Refocus Real-Time application.",
+      "required": true
+    },
+    "REFOCUS_TOKEN": {
+      "description": "A valid API token for your Refocus application.",
+      "required": true,
+    }
+  }
+}

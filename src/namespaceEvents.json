@@ -1,0 +1,30 @@
+{
+	"bots": [
+		"refocus.internal.realtime.bot.action.add",
+		"refocus.internal.realtime.bot.action.update",
+		"refocus.internal.realtime.bot.action.remove",
+		"refocus.internal.realtime.bot.data.add",
+		"refocus.internal.realtime.bot.data.update",
+		"refocus.internal.realtime.bot.data.remove",
+		"refocus.internal.realtime.bot.event.add",
+		"refocus.internal.realtime.bot.event.update",
+		"refocus.internal.realtime.bot.event.remove"
+	],
+	"perspectives": [
+		"refocus.internal.realtime.aspect.add",
+		"refocus.internal.realtime.aspect.remove",
+		"refocus.internal.realtime.aspect.update",
+		"refocus.internal.realtime.sample.add",
+		"refocus.internal.realtime.sample.nochange",
+		"refocus.internal.realtime.sample.remove",
+		"refocus.internal.realtime.sample.update",
+		"refocus.internal.realtime.subject.add",
+		"refocus.internal.realtime.subject.remove",
+		"refocus.internal.realtime.subject.update",
+		"refocus.lens.realtime.change"
+	],
+	"rooms": [
+		"refocus.internal.realtime.room.remove",
+		"refocus.internal.realtime.room.settingsChanged"
+	]
+}
