@@ -6,6 +6,12 @@ In this example, the events just stream to the console using debug, but obviousl
 
 ## Installation
 
+Deploy to Heroku or install manually.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+### Manual Installation
+
 ```
 git clone https://github.com/salesforce/refocus-real-time-client-example
 cd refocus-real-time-client-example
