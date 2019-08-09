@@ -1,4 +1,8 @@
 {
+  "name": "Refocus Real-Time Client Example",
+  "description": "This Refocus Real-Time Client Example application connects to your Refocus Real-Time application, authenticates using your API token, and sets up event handlers for all the standard socket events and all the Refocus Real-Time events associated with the namespace and query you provide. In this example, the events just stream to the console using debug, but obviously you could build a client application which uses the event stream in more interesting ways (e.g. logging, persistence, metrics, more complex processing, etc.).",
+  "repository": "https://github.com/salesforce/refocus-real-time-client-example",
+  "keywords": ["refocus"],
   "env": {
     "DEBUG": {
       "description": "The debug scope. Set the value to \"rrtc\" for basic output and/or \"rrtc:verbose\" for more verbose output (includes the full message for every event). Supports comma-delimited list of debug scopes (e.g. \"rrtc,rrtc:verbose\") and wildcards (e.g. \"rrtc*\").",
