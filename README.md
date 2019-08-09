@@ -48,6 +48,8 @@ npm start
 
 ## The Smallest, Simplest "Hello, World" Refocus Real-Time Client Application
 
+Alternatively, if you want the most basic client code to get you started...
+
 ```javascript
 const io = require('socket.io-client')
 
