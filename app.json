@@ -24,7 +24,7 @@
     },
     "REFOCUS_TOKEN": {
       "description": "A valid API token for your Refocus application.",
-      "required": true,
+      "required": true
     }
   }
 }
