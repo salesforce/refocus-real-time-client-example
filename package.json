@@ -15,7 +15,7 @@
   "license": "BSD-3-Clause",
   "dependencies": {
     "death": "^1.1.0",
-    "debug": "^4.1.1",
+    "debug": "^4.3.3",
     "object-sizeof": "^1.4.0",
     "socket.io-client": "^2.2.0"
   }
